@@ -41,7 +41,7 @@ const contagemRegressiva = (tempo) => {
 // Calcular tempo a ser contado
 const tempoRestante = () => {
     const dataEvento = new Date ('2022-05-25 20:00:00');
-    const dataHoje = new Date ("2022-05-22 00:00:00");
+    const dataHoje = new Date ('2022-05-22 01:00:00');
     return Math.floor(dataEvento - dataHoje) /1000;
 }
 
